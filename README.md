@@ -35,7 +35,7 @@ The `BinarySearchTree` class provides the following methods:
 
 ## Usage
 
-To use this project, you can include the header files and compile the implementation and driver files. Here is an example of how to use the classes:
+Here is an example of how to use the classes:
 
 ```cpp
 #include "BinarySearchTree.h"
