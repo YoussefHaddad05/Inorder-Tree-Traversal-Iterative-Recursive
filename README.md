@@ -58,7 +58,7 @@ int main() {
     cout << "Iterative Inorder Traversal: ";
     tree.inorderIterative();
 
-    cout << "Tree Visualization: " << std::endl;
+    cout << "Tree Visualization: " << endl;
     tree.visualize();
 
     return 0;
