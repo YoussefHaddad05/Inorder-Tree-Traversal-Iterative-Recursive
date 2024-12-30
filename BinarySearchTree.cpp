@@ -60,16 +60,18 @@ void BinarySearchTree<T>::inorderIterativeHelper(Node* node) {
     Node* current = node;
 
     while (!s.empty() || current != nullptr) {
-        while (current != nullptr) {
+        if (current != nullptr) {
             s.push(current);
             current = current->left;
         }
+        else {
 
         current = s.top();
         s.pop();
         cout << current->data << " "; 
 
         current = current->right;
+        }
     }
 }
 
