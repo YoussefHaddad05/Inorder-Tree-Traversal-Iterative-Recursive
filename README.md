@@ -43,7 +43,7 @@ To use this project, you can include the header files and compile the implementa
 int main() {
     BinarySearchTree<int> tree;
 
-    // Example inserts for a BST
+    
     tree.insert(10);
     tree.insert(5);
     tree.insert(15);
@@ -52,13 +52,13 @@ int main() {
     tree.insert(12);
     tree.insert(18);
 
-    std::cout << "Recursive Inorder Traversal: ";
+    cout << "Recursive Inorder Traversal: ";
     tree.inorderRecursive();
 
-    std::cout << "Iterative Inorder Traversal: ";
+    cout << "Iterative Inorder Traversal: ";
     tree.inorderIterative();
 
-    std::cout << "Tree Visualization: " << std::endl;
+    cout << "Tree Visualization: " << std::endl;
     tree.visualize();
 
     return 0;
